@@ -1,0 +1,72 @@
+/*
+ * rssFeed - Your rss feed on your website
+ *
+ * http://noprobweb.com/rss_feed_flux_jquery.php
+ *
+ * Version :  1.6
+ *
+ * Copyright (c) 2014 NoProbWeb (http://www.noprobweb.com)
+ *
+ * Licensed under the MIT (http://www.opensource.org/licenses/mit-license.php)
+ * 
+ * Built on top of the jQuery library
+ * http://jquery.com
+ * 
+ */
+ #rssFeed{
+ width:450px;
+ }
+ #feed{
+color:black;
+width:440px;
+height:auto;
+border-radius:5px;
+padding : 5px 5px 5px 5px;
+-moz-box-shadow: 5px 5px 3px #222; 
+-webkit-box-shadow: 5px 5px 3px #222; 
+box-shadow: 5px 5px 3px #222;
+background-color:#23BBD2;
+border:1px solid black;
+}
+#titre{
+ width:439px;
+border-radius:5px;
+background-color:white;
+padding:.5em;
+text-align:left;
+}
+#titre img{
+border-radius:5px;
+padding:5px;
+border:1px solid #000;
+margin-right:1em;
+vertical-align:top;
+}
+#titre a{
+text-decoration:none;
+color:black;
+font-size:1.2em;
+font-weight:bold;
+}
+#resume{
+height:0;
+display:none;
+padding : 0 0 5px 0;  
+}
+#resume a{
+color:white;
+}
+#title{
+font-weight:bold;
+padding : 5px 0 5px 0;
+}
+#title a{
+color:white;
+}
+#time{
+color:white;
+}
+#loading{
+padding :25px 0 0 0; 
+background-color:white;color:black;
+}
